@@ -45,9 +45,12 @@
     $investment_f = '$'.number_format($investment, 2);
     $yearly_rate_f = $interest_rate.'%';
     $future_value_f = '$'.number_format($future_value, 2);
+
+$date=date("m/d/y");
+
 ?>
 
-$date("m/d/y");
+
 
 <!DOCTYPE html>
 <html>
